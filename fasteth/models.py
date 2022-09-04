@@ -20,6 +20,40 @@ class Network(int, Enum):
     Rinkeby = 4
     Kovan = 42
     Ganache = 1337
+    Goerli = 5
+    XDai = 100
+    Polygon = 137
+    Fantom = 250
+    Dev = 1337
+    AnvilHardhat = 31337
+    FantomTestnet = 4002
+    PolygonMumbai = 80001
+    Avalanche = 43114
+    AvalancheFuji = 43113
+    Sepolia = 11155111
+    Moonbeam = 1284
+    Moonbase = 1287
+    MoonbeamDev = 1281
+    Moonriver = 1285
+    Optimism = 10
+    OptimismGoerli = 420
+    OptimismKovan = 69
+    Arbitrum = 42161
+    ArbitrumTestnet = 421611
+    Cronos = 25
+    CronosTestnet = 338
+    BinanceSmartChain = 56
+    BinanceSmartChainTestnet = 97
+    Poa = 99
+    Sokol = 77
+    Rsk = 30
+    Oasis = 26863
+    Emerald = 42262
+    EmeraldTestnet = 42261
+    Evmos = 9001
+    EvmosTestnet = 9000
+    Aurora = 1313161554
+    AuroraTestnet = 1313161555
 
 
 class RPCSchema(tuple, Enum):
